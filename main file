@@ -1,9 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
-
+int minus(int,int);
 void main()
 {
-clrscr();
-
+ int num1,b,c;
+ num1=10;
+ b=5;
+int minus(int x,int y)
+{
+  return x-y;
+}\
+c=minus(num1,b);
+printf("%d",c);
 getch();
 }
