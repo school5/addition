@@ -1,7 +1,14 @@
-#include<stdio.h>
-#include<conio.h>
-
+int add(int,int);
 void main()
 {
-clrscr()
+ int num1,b,c;
+ num1=10;
+ b=5;
+int add(int x,int y)
+{
+  return x+y;
+}
+c=add(num1,b);
+printf("%d",c);
+getch();
 }
