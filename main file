@@ -1,14 +1,13 @@
-int add(int,int);
-void main()
-{
- int num1,b,c;
- num1=10;
- b=5;
 int add(int x,int y)
 {
   return x+y;
 }
-c=add(num1,b);
+void main()
+{
+ int num1,b,c;
+ num1=10;
+num2=5;
+c=add(num1,num2);
 printf("%d",c);
 getch();
 }
