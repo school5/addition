@@ -10,5 +10,7 @@ int add(int x,int y)
 }
 c=add(num1,b);
 printf("%d",c);
+c=num1-b;
+printf("%d",c);
 getch();
 }
